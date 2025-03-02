@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>my page</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dearest Chutku.</strong>
+                        <p>
+                            Heyy!!
+                            toh sir ji mara mane tamne kahevu che k THANKYOUSOMUCH mari life ma aava,je pn kav e ochu che km k tu etlo special che BABYAUM.
+                            I AM SO GREATFULL FOR YOU.Mane atlu badhu sahan,laad,prem,care karva. <br>ily
+                            ily 
+                            ~tari bhund.</br>
+                    
+
+                     
+                             
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
